@@ -9,8 +9,8 @@ public class BonusService {
 //        return bonus;
 
         public long calculate(long amount, boolean registered) {
-            int percent = registered ? 3 : 1;
-            long bonus = amount * percent / 100;
+            int Percent = registered ? 3 : 1;
+            long bonus = amount * Percent / 100;
             long limit = 500;
             if (bonus > limit) {
                 bonus = limit;
